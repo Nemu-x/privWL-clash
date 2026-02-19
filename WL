@@ -145,6 +145,9 @@ prepend:
   - 'DOMAIN-SUFFIX,riotgames.com,♻️ Automatic'
   - 'DOMAIN-SUFFIX,zendesk.com,♻️ Automatic'
   - 'DOMAIN-SUFFIX,speedtest.net,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,inet.no,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,kino.pub,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,mattermost.com,♻️ Automatic'
   - 'NETWORK,UDP,DIRECT'
 append:
   - 'MATCH,DIRECT'
