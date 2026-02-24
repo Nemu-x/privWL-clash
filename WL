@@ -148,6 +148,11 @@ prepend:
   - 'DOMAIN-SUFFIX,inet.no,♻️ Automatic'
   - 'DOMAIN-SUFFIX,kino.pub,♻️ Automatic'
   - 'DOMAIN-SUFFIX,mattermost.com,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,sherlock-report.at,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,thespike.gg,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,vlr.gg,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,militarysummary.com,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,deepstatemap.live,♻️ Automatic'
   - 'NETWORK,UDP,DIRECT'
 append:
   - 'MATCH,DIRECT'
