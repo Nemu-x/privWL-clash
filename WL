@@ -153,6 +153,13 @@ prepend:
   - 'DOMAIN-SUFFIX,vlr.gg,♻️ Automatic'
   - 'DOMAIN-SUFFIX,militarysummary.com,♻️ Automatic'
   - 'DOMAIN-SUFFIX,deepstatemap.live,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,sourceforge.io,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,deskease.app,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,cloudron.io,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,seatsurfing.io,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,seatsurfing.app,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,oaiusercontent.com,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,spotify.com,♻️ Automatic'
   - 'NETWORK,UDP,DIRECT'
 append:
   - 'MATCH,DIRECT'
