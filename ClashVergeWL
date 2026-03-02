@@ -148,6 +148,10 @@ prepend:
   - 'DOMAIN-SUFFIX,inet.no,♻️ Automatic'
   - 'DOMAIN-SUFFIX,kino.pub,♻️ Automatic'
   - 'DOMAIN-SUFFIX,mattermost.com,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,rocket.chat,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,userway.org,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,wistia.com,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,document360.io,♻️ Automatic'
   - 'DOMAIN-SUFFIX,sherlock-report.at,♻️ Automatic'
   - 'DOMAIN-SUFFIX,thespike.gg,♻️ Automatic'
   - 'DOMAIN-SUFFIX,vlr.gg,♻️ Automatic'
@@ -160,6 +164,7 @@ prepend:
   - 'DOMAIN-SUFFIX,seatsurfing.app,♻️ Automatic'
   - 'DOMAIN-SUFFIX,oaiusercontent.com,♻️ Automatic'
   - 'DOMAIN-SUFFIX,spotify.com,♻️ Automatic'
+  - 'DOMAIN-SUFFIX,perplexity.ai,♻️ Automatic'
   - 'NETWORK,UDP,DIRECT'
 append:
   - 'MATCH,DIRECT'
