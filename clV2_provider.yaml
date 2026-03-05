@@ -409,6 +409,7 @@ payload:
   - DOMAIN-SUFFIX,telegram.org
   - DOMAIN-SUFFIX,telesco.pe
   - DOMAIN-SUFFIX,telnyx.com
+  - DOMAIN-SUFFIX,telnyx.tech
   - DOMAIN-SUFFIX,terraform.io
   - DOMAIN-SUFFIX,the-village.ru
   - DOMAIN-SUFFIX,theguardian.com
