@@ -169,6 +169,7 @@ payload:
   - DOMAIN-SUFFIX,h-mdm.com
   - DOMAIN-SUFFIX,habr.com
   - DOMAIN-SUFFIX,happ.info
+  - DOMAIN-SUFFIX,happ.su
   - DOMAIN-SUFFIX,happy-pc.ru
   - DOMAIN-SUFFIX,happycolorapp.com
   - DOMAIN-SUFFIX,hashicorp.com
