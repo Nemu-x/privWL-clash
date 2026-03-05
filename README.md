@@ -8,6 +8,8 @@ This ruleset forces selected domains to use your proxy group (e.g. `♻️ Autom
 
 Supports automatic updates via `rule-providers`.
 
+![maintained](https://img.shields.io/badge/maintained-by%20Nemu--x-pink)
+
 ---
 
 ## 📦 What This Is
