@@ -139,3 +139,14 @@ You can:
 ---
 
 **Made for Clash Verge / Clash.Meta users who want simple and clean proxy control.**
+
+
+---
+
+# Disclaimer
+
+This repository only provides routing rules and a domain list.
+
+It does **not** provide proxy servers or bypass censorship on its own.
+
+---
