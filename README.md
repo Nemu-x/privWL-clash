@@ -1,6 +1,6 @@
 ---
 
-# Nemu-X-WL
+# Nemu-X-WL-clash
 
 Custom whitelist ruleset for **Clash Verge / Clash.Meta**.
 
