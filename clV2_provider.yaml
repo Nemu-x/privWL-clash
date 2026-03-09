@@ -512,3 +512,4 @@ payload:
   - DOMAIN-SUFFIX,gcore.com
   - DOMAIN-SUFFIX,enterprisedb.com
   - DOMAIN-SUFFIX,seasonvar.ru
+  - DOMAIN-SUFFIX,labs.google
