@@ -332,9 +332,6 @@ payload:
   - DOMAIN-SUFFIX,quora.com
   - DOMAIN-SUFFIX,radarr.video
   - DOMAIN-SUFFIX,radiosvoboda.org
-  - DOMAIN-SUFFIX,redd.it
-  - DOMAIN-SUFFIX,reddit.com
-  - DOMAIN-SUFFIX,redditmedia.com
   - DOMAIN-SUFFIX,redis.com
   - DOMAIN-SUFFIX,redis.io
   - DOMAIN-SUFFIX,refactoring.guru
