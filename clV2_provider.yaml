@@ -523,3 +523,4 @@ payload:
   - DOMAIN-SUFFIX,ssscdn.io
   - DOMAIN-SUFFIX,sm1ky.com
   - DOMAIN-SUFFIX,pi-hole.net
+  - DOMAIN-SUFFIX,ionos.com
