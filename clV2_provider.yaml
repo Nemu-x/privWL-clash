@@ -521,3 +521,5 @@ payload:
   - DOMAIN-SUFFIX,sm1ky.com
   - DOMAIN-SUFFIX,pi-hole.net
   - DOMAIN-SUFFIX,ionos.com
+  - DOMAIN-SUFFIX,protonmail.com
+  - DOMAIN-SUFFIX,proton.me
