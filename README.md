@@ -39,6 +39,8 @@ Profiles → Your Active Profile → Edit → Extend Config
 
 ### 2️⃣ Paste This Configuration
 
+For Marzban Configuarations
+
 ```yaml
 rule-providers:
   Nemu-X-WL:
@@ -50,6 +52,21 @@ rule-providers:
 
 rules:
   - RULE-SET,Nemu-X-WL,♻️ Automatic
+  - MATCH,DIRECT
+```
+For PasarGuard Configurations
+
+```yaml
+rule-providers:
+  Nemu-X-WL:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Nemu-x/privWL-clash/main/clV2_provider.yaml"
+    path: ./ruleset/Nemu-X-WL.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,Nemu-X-WL,⚡️ Fastest
   - MATCH,DIRECT
 ```
 
