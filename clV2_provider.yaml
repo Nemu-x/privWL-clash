@@ -527,3 +527,4 @@ payload:
   - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,intercomassets.com
   - DOMAIN-SUFFIX,intercom.com
+  - DOMAIN-SUFFIX,hcaptcha.com
