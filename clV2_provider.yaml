@@ -528,3 +528,4 @@ payload:
   - DOMAIN-SUFFIX,intercomassets.com
   - DOMAIN-SUFFIX,intercom.com
   - DOMAIN-SUFFIX,hcaptcha.com
+  - DOMAIN-SUFFIX,spook.boo
