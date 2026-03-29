@@ -530,3 +530,4 @@ payload:
   - DOMAIN-SUFFIX,hcaptcha.com
   - DOMAIN-SUFFIX,spook.boo
   - DOMAIN-SUFFIX,weblate.org
+  - DOMAIN-SUFFIX,hysteria.network
