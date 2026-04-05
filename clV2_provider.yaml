@@ -535,3 +535,4 @@ payload:
   - DOMAIN-SUFFIX,monochrome.tf
   - DOMAIN-SUFFIX,marketo.com
   - DOMAIN-SUFFIX,scalacube.com
+  - DOMAIN-SUFFIX,ngrok.com
