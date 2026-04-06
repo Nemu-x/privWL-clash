@@ -6,7 +6,10 @@ This ruleset forces selected domains to use your proxy group (e.g. `♻️ Autom
 
 Supports automatic updates via `rule-providers`.
 
-![maintained](https://img.shields.io/badge/maintained-by%20Nemu--x-purple)
+![maintained](https://img.shields.io/badge/maintained-yes-purple)
+![platform](https://img.shields.io/badge/platform-Clash_Meta-blue)
+![format](https://img.shields.io/badge/type-rule--provider-green)
+![license](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ---
 
