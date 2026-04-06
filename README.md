@@ -1,5 +1,3 @@
----
-
 # Nemu-X-WL-clash
 
 Custom whitelist ruleset for **Clash Verge / Clash.Meta**.
@@ -14,32 +12,38 @@ Supports automatic updates via `rule-providers`.
 
 ## 📦 What This Is
 
-**Nemu-X-WL** is a personal whitelist containing domains that should always use a proxy connection.
+**Nemu-X-WL** is a curated whitelist of domains that should always use a proxy connection.
 
-Includes domains such as:
+Includes:
 
 * AI services (OpenAI, Anthropic, Mistral, etc.)
 * GitHub & developer tools
 * Media & streaming platforms
-* Region-restricted or blocked websites
+* Region-restricted websites
 
 ---
 
-## ⚙️ How to Use in Clash Verge
+## ⚙️ Usage
 
-### 1️⃣ Open Profile Settings
-
-Go to:
+### 1️⃣ Open Config
 
 ```
-Profiles → Your Active Profile → Edit → Extend Config
+Profiles → Your Profile → Edit → Extend Config
 ```
 
 ---
 
-### 2️⃣ Paste This Configuration
+### 2️⃣ Choose Your Setup
 
-For Marzban Configuarations
+You can use:
+
+* `Nemu-X-WL` → general whitelist
+* `Nemu-X-TG` → Telegram IP rules
+* or both together
+
+---
+
+## 🧩 Whitelist Only
 
 ```yaml
 rule-providers:
@@ -51,10 +55,13 @@ rule-providers:
     interval: 86400
 
 rules:
-  - RULE-SET,Nemu-X-WL,♻️ Automatic
+  - RULE-SET,Nemu-X-WL,<PROXY_GROUP>
   - MATCH,DIRECT
 ```
-For PasarGuard Configurations
+
+---
+
+## 📡 Telegram + Whitelist
 
 ```yaml
 rule-providers:
@@ -65,82 +72,73 @@ rule-providers:
     path: ./ruleset/Nemu-X-WL.yaml
     interval: 86400
 
+  Nemu-X-TG:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Nemu-x/privWL-clash/main/tgprx.yaml"
+    path: ./ruleset/Nemu-X-TG.yaml
+    interval: 86400
+
 rules:
-  - RULE-SET,Nemu-X-WL,⚡️ Fastest
+  - RULE-SET,Nemu-X-TG,<PROXY_GROUP>
+  - RULE-SET,Nemu-X-WL,<PROXY_GROUP>
   - MATCH,DIRECT
 ```
 
 ---
 
-### 3️⃣ Save & Reload
+## 🎯 Proxy Group
 
-* Click **Save**
-* Reload profile
-* Restart Clash core if necessary
-
----
-
-## 🔄 How It Works
-
-Rule priority:
-
-1. Domains listed in `Nemu-X-WL` → `♻️ Automatic`
-2. Everything else → `DIRECT`
-
-If you use a different proxy group, replace:
+Replace:
 
 ```
-♻️ Automatic
+<PROXY_GROUP>
 ```
 
-with your group name.
+With your actual group name:
+
+| Panel      | Example      |
+| ---------- | ------------ |
+| Marzban    | ♻️ Automatic |
+| Pasarguard | ⚡️ Fastest   |
 
 Example:
 
 ```yaml
-- RULE-SET,Nemu-X-WL,Proxy
+- RULE-SET,Nemu-X-WL,♻️ Automatic
 ```
 
 ---
 
-## 🔁 Auto Updates
+## 🔄 Auto Updates
 
-The ruleset updates automatically every 24 hours:
-
-```
+```yaml
 interval: 86400
 ```
 
-You can change this value:
-
-* `3600` → update every hour
-* `43200` → update every 12 hours
-* `86400` → update every 24 hours
+| Value | Meaning  |
+| ----- | -------- |
+| 3600  | 1 hour   |
+| 43200 | 12 hours |
+| 86400 | 24 hours |
 
 ---
 
-## 📁 File Structure
+## 📁 Files
 
 ```
-clV2_provider.yaml  → main whitelist ruleset
-```
-
-Format example:
-
-```yaml
-payload:
-  - DOMAIN-SUFFIX,example.com
-  - DOMAIN-SUFFIX,github.com
+clV2_provider.yaml  → main whitelist
+tgprx.yaml          → Telegram IP rules (optional)
 ```
 
 ---
 
-## ⚠️ Important Notes
+## ⚠️ Notes
 
-* `MATCH` rule must always be the **last rule**
+* `MATCH` must be **last**
 * Rule names are **case-sensitive**
-* Proxy group name must match exactly
-* After editing, always reload profile or restart core
+* Proxy group must match exactly
+* Reload config after changes
 
 ---
 
@@ -148,22 +146,15 @@ payload:
 
 You can:
 
-* Fork this repository
-* Add or remove domains
-* Change proxy group in Clash
+* Fork this repo
+* Modify domains
+* Change proxy group
 * Adjust update interval
 
 ---
 
-**Made for Clash Verge / Clash.Meta users who want simple and clean proxy control.**
+## 📌 Disclaimer
 
+This repository provides only routing rules.
 
----
-
-# Disclaimer
-
-This repository only provides routing rules and a domain list.
-
-It does **not** provide proxy servers or bypass censorship on its own.
-
----
+It does **not** include proxy servers or bypass mechanisms.
