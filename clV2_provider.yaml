@@ -371,6 +371,9 @@ payload:
   - DOMAIN-SUFFIX,sherlock-report.at
   - DOMAIN-SUFFIX,signal.me
   - DOMAIN-SUFFIX,signal.org
+  - DOMAIN-SUFFIX,signal.group
+  - DOMAIN-SUFFIX,signal.link
+  - DOMAIN-SUFFIX,signal.tube
   - DOMAIN-SUFFIX,singlekey-id.com
   - DOMAIN-SUFFIX,skladchik.com
   - DOMAIN-SUFFIX,skyscanner.com
