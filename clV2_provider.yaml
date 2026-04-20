@@ -407,6 +407,7 @@ payload:
   - DOMAIN-SUFFIX,t-ru.org
   - DOMAIN-SUFFIX,t.co
   - DOMAIN-SUFFIX,telegram.me
+  - DOMAIN-SUFFIX,tg.dev
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tayga.info
   - DOMAIN-SUFFIX,tcljd.com
