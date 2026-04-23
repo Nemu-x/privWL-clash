@@ -398,6 +398,7 @@ payload:
   - DOMAIN-SUFFIX,redtube.com
   - DOMAIN-SUFFIX,onlyfans.com
   - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,xvideos.com
   - DOMAIN-SUFFIX,supercell.com
   - DOMAIN-SUFFIX,svoboda.org
@@ -917,3 +918,4 @@ payload:
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,reportagegroup.com
   - DOMAIN-SUFFIX,quo.com
+  - DOMAIN-SUFFIX,creative-tim.com
