@@ -22,13 +22,13 @@ jobs:
           python3 <<'PY'
           import ipaddress
           import socket
-          import re
           from pathlib import Path
 
           input_file = Path("clV2_provider.yaml")
           output_file = Path("ipcidr-domain.yaml")
 
-          networks = set()
+          ipv4_networks = set()
+          ipv6_networks = set()
           domains = set()
 
           suffix_probe_prefixes = [
@@ -50,7 +50,6 @@ jobs:
               if not line or line.startswith("#"):
                   continue
 
-              # remove yaml list prefix
               if line.startswith("- "):
                   line = line[2:].strip().strip("'").strip('"')
 
@@ -64,15 +63,13 @@ jobs:
               if not value:
                   continue
 
-              if rule_type in ("DOMAIN", "DOMAIN-SUFFIX"):
+              if rule_type == "DOMAIN":
                   domains.add(value)
 
-                  if rule_type == "DOMAIN-SUFFIX":
-                      for prefix in suffix_probe_prefixes:
-                          domains.add(prefix + value)
-
-              # DOMAIN-KEYWORD нельзя нормально резолвить
-              # IP-CIDR из WL сюда не тащим, это domain-generated файл
+              elif rule_type == "DOMAIN-SUFFIX":
+                  value = value.lstrip(".")
+                  for prefix in suffix_probe_prefixes:
+                      domains.add(prefix + value)
 
           for domain in sorted(domains):
               try:
@@ -85,12 +82,19 @@ jobs:
 
                   try:
                       addr = ipaddress.ip_address(ip)
-                      prefix = 32 if addr.version == 4 else 128
-                      networks.add(ipaddress.ip_network(f"{addr}/{prefix}", strict=False))
+
+                      if addr.version == 4:
+                          ipv4_networks.add(ipaddress.ip_network(f"{addr}/32", strict=False))
+                      else:
+                          ipv6_networks.add(ipaddress.ip_network(f"{addr}/128", strict=False))
+
                   except ValueError:
                       pass
 
-          collapsed = list(ipaddress.collapse_addresses(networks))
+          collapsed_v4 = list(ipaddress.collapse_addresses(ipv4_networks))
+          collapsed_v6 = list(ipaddress.collapse_addresses(ipv6_networks))
+
+          collapsed = collapsed_v4 + collapsed_v6
           collapsed.sort(key=lambda n: (n.version, int(n.network_address), n.prefixlen))
 
           with output_file.open("w", encoding="utf-8") as out:
