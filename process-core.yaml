@@ -1,0 +1,103 @@
+payload:
+  # =========================
+  # 🎮 DISCORD
+  # =========================
+  - PROCESS-NAME,Discord.exe
+  - PROCESS-NAME,Discord
+  - PROCESS-NAME,discord
+  - PROCESS-NAME,com.discord
+
+  # =========================
+  # 🎮 ROBLOX
+  # =========================
+  - PROCESS-NAME,RobloxPlayerBeta.exe
+  - PROCESS-NAME,RobloxPlayerLauncher.exe
+  - PROCESS-NAME,RobloxPlayer
+  - PROCESS-NAME,com.roblox.client
+
+  # =========================
+  # 📱 TIKTOK
+  # =========================
+  - PROCESS-NAME,TikTok.exe
+  - PROCESS-NAME,com.zhiliaoapp.musically
+  - PROCESS-NAME,com.ss.android.ugc.trill
+
+  # =========================
+  # 📺 YOUTUBE
+  # =========================
+  - PROCESS-NAME,com.google.android.youtube
+  - PROCESS-NAME,com.google.android.apps.youtube.music
+
+  # =========================
+  # 🐦 X (TWITTER)
+  # =========================
+  - PROCESS-NAME,X.exe
+  - PROCESS-NAME,Twitter.exe
+  - PROCESS-NAME,com.twitter.android
+
+  # =========================
+  # 📸 INSTAGRAM
+  # =========================
+  - PROCESS-NAME,com.instagram.android
+
+  # =========================
+  # 📘 FACEBOOK / MESSENGER
+  # =========================
+  - PROCESS-NAME,com.facebook.katana
+  - PROCESS-NAME,com.facebook.orca
+
+  # =========================
+  # 💬 WHATSAPP
+  # =========================
+  - PROCESS-NAME,com.whatsapp
+
+  # =========================
+  # 🎵 SPOTIFY
+  # =========================
+  - PROCESS-NAME,Spotify.exe
+  - PROCESS-NAME,Spotify
+  - PROCESS-NAME,com.spotify.music
+
+  # =========================
+  # 🎬 NETFLIX
+  # =========================
+  - PROCESS-NAME,Netflix.exe
+  - PROCESS-NAME,com.netflix.mediaclient
+
+  # =========================
+  # 📹 ZOOM / MEET (RTC)
+  # =========================
+  - PROCESS-NAME,Zoom.exe
+  - PROCESS-NAME,com.zoom.us
+  - PROCESS-NAME,com.google.android.apps.meetings
+
+  # =========================
+  # 🧠 AI
+  # =========================
+  # OpenAI / ChatGPT
+  - PROCESS-NAME,ChatGPT.exe
+  - PROCESS-NAME,ChatGPT
+  - PROCESS-NAME,com.openai.chatgpt
+
+  # Claude (Anthropic)
+  - PROCESS-NAME,Claude
+  - PROCESS-NAME,Claude.exe
+  - PROCESS-NAME,com.anthropic.claude
+
+  # Perplexity
+  - PROCESS-NAME,Perplexity
+  - PROCESS-NAME,Perplexity.exe
+  - PROCESS-NAME,ai.perplexity.app.android
+
+  # Google Gemini
+  - PROCESS-NAME,com.google.android.apps.bard
+
+  # Microsoft Copilot
+  - PROCESS-NAME,Copilot.exe
+  - PROCESS-NAME,com.microsoft.copilot
+
+  # Grok (X AI)
+  - PROCESS-NAME,com.xai.grok
+  
+  # LinkedIn
+  - PROCESS-NAME,com.linkedin.android
