@@ -1,0 +1,114 @@
+name: Update Domain IPCIDR
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate ipcidr-domain.yaml from WL
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/Nemu-x/privWL-clash/refs/heads/main/clV2_provider.yaml -o clV2_provider.yaml
+
+          python3 <<'PY'
+          import ipaddress
+          import socket
+          import re
+          from pathlib import Path
+
+          input_file = Path("clV2_provider.yaml")
+          output_file = Path("ipcidr-domain.yaml")
+
+          networks = set()
+          domains = set()
+
+          suffix_probe_prefixes = [
+              "",
+              "www.",
+              "api.",
+              "cdn.",
+              "static.",
+              "assets.",
+              "media.",
+              "images.",
+              "gateway.",
+              "status.",
+          ]
+
+          for raw in input_file.read_text(encoding="utf-8").splitlines():
+              line = raw.strip().strip("'").strip('"')
+
+              if not line or line.startswith("#"):
+                  continue
+
+              # remove yaml list prefix
+              if line.startswith("- "):
+                  line = line[2:].strip().strip("'").strip('"')
+
+              parts = [p.strip() for p in line.split(",")]
+              if len(parts) < 2:
+                  continue
+
+              rule_type = parts[0].upper()
+              value = parts[1].strip().lstrip("+.").strip()
+
+              if not value:
+                  continue
+
+              if rule_type in ("DOMAIN", "DOMAIN-SUFFIX"):
+                  domains.add(value)
+
+                  if rule_type == "DOMAIN-SUFFIX":
+                      for prefix in suffix_probe_prefixes:
+                          domains.add(prefix + value)
+
+              # DOMAIN-KEYWORD нельзя нормально резолвить
+              # IP-CIDR из WL сюда не тащим, это domain-generated файл
+
+          for domain in sorted(domains):
+              try:
+                  infos = socket.getaddrinfo(domain, None)
+              except socket.gaierror:
+                  continue
+
+              for info in infos:
+                  ip = info[4][0]
+
+                  try:
+                      addr = ipaddress.ip_address(ip)
+                      prefix = 32 if addr.version == 4 else 128
+                      networks.add(ipaddress.ip_network(f"{addr}/{prefix}", strict=False))
+                  except ValueError:
+                      pass
+
+          collapsed = list(ipaddress.collapse_addresses(networks))
+          collapsed.sort(key=lambda n: (n.version, int(n.network_address), n.prefixlen))
+
+          with output_file.open("w", encoding="utf-8") as out:
+              out.write("payload:\n")
+              for net in collapsed:
+                  out.write(f"  - '{net}'\n")
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add ipcidr-domain.yaml
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update domain-based ipcidr ruleset"
+            git push
+          fi
