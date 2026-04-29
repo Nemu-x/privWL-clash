@@ -1,4 +1,4 @@
-name: Update IPCIDR
+name: Update Freedom IPCIDR
 
 on:
   schedule:
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate ipcidr.yaml
+      - name: Generate ipcidr-freedom.yaml
         run: |
           curl -fsSL https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/ipsum.lst -o ipsum.lst
 
@@ -29,6 +29,10 @@ jobs:
                   line = line.strip()
                   if not line or line.startswith("#"):
                       continue
+
+                  # на случай если в строке есть пробелы/комменты
+                  line = line.split()[0]
+
                   try:
                       net = ipaddress.ip_network(line, strict=False)
                       networks.add(net)
@@ -38,7 +42,7 @@ jobs:
           collapsed = list(ipaddress.collapse_addresses(networks))
           collapsed.sort(key=lambda n: (n.version, int(n.network_address), n.prefixlen))
 
-          with open("ipcidr.yaml", "w", encoding="utf-8") as out:
+          with open("ipcidr-freedom.yaml", "w", encoding="utf-8") as out:
               out.write("payload:\n")
               for net in collapsed:
                   out.write(f"  - '{net}'\n")
@@ -49,11 +53,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add ipcidr.yaml
+          git add ipcidr-freedom.yaml
 
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Update ipcidr ruleset"
+            git commit -m "Update freedom ipcidr ruleset"
             git push
           fi
