@@ -101,3 +101,12 @@ payload:
   
   # LinkedIn
   - PROCESS-NAME,com.linkedin.android
+
+
+  # =========================
+  # 🖥️ ANYDESK
+  # =========================
+  - PROCESS-NAME,AnyDesk.exe
+  - PROCESS-NAME,AnyDesk
+  - PROCESS-NAME,anydesk
+  - PROCESS-NAME,com.anydesk.anydeskandroid
