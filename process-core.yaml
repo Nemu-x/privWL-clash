@@ -50,6 +50,10 @@ payload:
   # 💬 WHATSAPP
   # =========================
   - PROCESS-NAME,com.whatsapp
+  - PROCESS-NAME,WhatsApp.exe
+  - PROCESS-NAME,WhatsApp
+  - PROCESS-NAME,whatsapp
+  - PROCESS-NAME,whatsapp-desktop
 
   # =========================
   # 🎵 SPOTIFY
