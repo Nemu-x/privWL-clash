@@ -11,3 +11,15 @@ payload:
   - PROCESS-NAME-WILDCARD,ru.tinkoff.*
   - PROCESS-NAME-WILDCARD,ru.ozon.*
   - PROCESS-NAME-WILDCARD,com.ozon.*
+  - PROCESS-NAME-WILDCARD,com.mail.*
+  - PROCESS-NAME-WILDCARD,com.avito.*
+  - PROCESS-NAME-WILDCARD,ru.avito.*
+  - PROCESS-NAME-WILDCARD,com.wildberries.*
+  - PROCESS-NAME-WILDCARD,ru.wildberries.*
+  - PROCESS-NAME-WILDCARD,ru.mts.*
+  - PROCESS-NAME-WILDCARD,ru.beeline.*
+  - PROCESS-NAME-WILDCARD,ru.megafon.*
+  - PROCESS-NAME-WILDCARD,ru.tele2.*
+  - PROCESS-NAME-WILDCARD,ru.gosuslugi.*
+  - PROCESS-NAME-WILDCARD,ru.mos.*
+  - PROCESS-NAME-WILDCARD,ru.sber.*
