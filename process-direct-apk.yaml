@@ -133,3 +133,63 @@ payload:
   - PROCESS-NAME,ru.kwork.app
   - PROCESS-NAME,ru.aorr.tkpclient
   - PROCESS-NAME,ru.nspk.mirpay
+
+  # Банки / финансы дополнительно
+  - PROCESS-NAME,ru.mtsbank.mobile
+  - PROCESS-NAME,ru.pochtabank.mobile
+  - PROCESS-NAME,ru.unicreditbank.android
+  - PROCESS-NAME,ru.bspb
+  - PROCESS-NAME,ru.openbank
+  - PROCESS-NAME,ru.rncb.mobile
+  - PROCESS-NAME,ru.yoomoney
+  - PROCESS-NAME,ru.tinkoff.acquiring.mobile
+  - PROCESS-NAME,ru.nspk.sbpay
+
+  # Маркетплейсы / доставка дополнительно
+  - PROCESS-NAME,ru.samokat
+  - PROCESS-NAME,ru.yandex.lavka
+  - PROCESS-NAME,com.sbermarket
+  - PROCESS-NAME,ru.sbermarket
+  - PROCESS-NAME,ru.vprok
+  - PROCESS-NAME,ru.auchan
+  - PROCESS-NAME,ru.leroymerlin.mobile
+  - PROCESS-NAME,ru.petshop.client
+  - PROCESS-NAME,ru.goldapple
+
+  # Гос / документы / городские сервисы
+  - PROCESS-NAME,ru.gosuslugi.pos
+  - PROCESS-NAME,ru.mosgorpass
+  - PROCESS-NAME,ru.mos.transport
+  - PROCESS-NAME,ru.mosgortrans
+  - PROCESS-NAME,ru.gosuslugi.stopcoronavirus
+  - PROCESS-NAME,ru.mos.polls
+
+  # Медиа / экосистемы
+  - PROCESS-NAME,ru.mail.cloud
+  - PROCESS-NAME,ru.mail.calendar
+  - PROCESS-NAME,ru.mail.news
+  - PROCESS-NAME,ru.vk.music
+  - PROCESS-NAME,ru.vk.news
+  - PROCESS-NAME,ru.rutube.app
+  - PROCESS-NAME,ru.ntv.client
+  - PROCESS-NAME,ru.tvigle.app
+
+  # Такси / транспорт / карты
+  - PROCESS-NAME,ru.citymobil.client
+  - PROCESS-NAME,com.citymobil
+  - PROCESS-NAME,ru.yandex.mobile.drive
+  - PROCESS-NAME,ru.rzd.pass
+  - PROCESS-NAME,ru.rzd.android
+  - PROCESS-NAME,ru.rzd.bonus
+  - PROCESS-NAME,ru.aeroexpress
+
+  # Операторы / провайдеры
+  - PROCESS-NAME,ru.skylink
+  - PROCESS-NAME,ru.domru
+  - PROCESS-NAME,ru.mgtslk
+  - PROCESS-NAME,ru.akado.lk
+
+  # Бытовые / smart home / сервисы
+  - PROCESS-NAME,ru.yandex.quasar.app
+  - PROCESS-NAME,ru.sberdevices.starhome
+  - PROCESS-NAME,ru.sberbank.sdakit.companion
