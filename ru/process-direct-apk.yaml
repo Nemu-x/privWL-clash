@@ -193,3 +193,32 @@ payload:
   - PROCESS-NAME,ru.yandex.quasar.app
   - PROCESS-NAME,ru.sberdevices.starhome
   - PROCESS-NAME,ru.sberbank.sdakit.companion
+
+  # Гос / документы
+  - PROCESS-NAME,ru.gosuslugi.mobile
+  - PROCESS-NAME,ru.gosuslugi.pay
+  - PROCESS-NAME,ru.gov.spb
+  - PROCESS-NAME,ru.mos.ourcity
+
+  # Банки / платежи
+  - PROCESS-NAME,ru.bspb.mobile
+  - PROCESS-NAME,ru.bspb.release
+  - PROCESS-NAME,ru.sberbank.sbol
+  - PROCESS-NAME,ru.mirpay
+  - PROCESS-NAME,ru.mkb.android
+
+  # Операторы / связь
+  - PROCESS-NAME,ru.motiv.telecom
+  - PROCESS-NAME,ru.tattelecom.lk
+  - PROCESS-NAME,ru.yota.android
+
+  # Транспорт / город
+  - PROCESS-NAME,ru.troika.app
+  - PROCESS-NAME,ru.mosmetro.mobile
+  - PROCESS-NAME,ru.mosmetro.android
+
+  # Еда / ритейл
+  - PROCESS-NAME,ru.vkusnoitochka
+  - PROCESS-NAME,ru.magnit.app
+  - PROCESS-NAME,ru.perekrestok.app
+  - PROCESS-NAME,ru.okeydostavka
