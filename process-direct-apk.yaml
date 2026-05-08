@@ -1,0 +1,135 @@
+payload:
+  # Банки
+  - PROCESS-NAME,ru.sberbankmobile
+  - PROCESS-NAME,ru.sberbank.android
+  - PROCESS-NAME,ru.sberbank.spasibo
+  - PROCESS-NAME,ru.vtb24.mobilebanking.android
+  - PROCESS-NAME,ru.alfabank.mobile.android
+  - PROCESS-NAME,ru.alfabank.oavdo.amc
+  - PROCESS-NAME,com.idamob.tinkoff.android
+  - PROCESS-NAME,ru.tinkoff.mobile.tcs
+  - PROCESS-NAME,ru.tinkoff.investing
+  - PROCESS-NAME,ru.gazprombank.android.mobilebank.app
+  - PROCESS-NAME,ru.raiffeisennews
+  - PROCESS-NAME,ru.raiffeisen.mobile.new
+  - PROCESS-NAME,ru.psbank.mobile
+  - PROCESS-NAME,ru.rshb.dbo
+  - PROCESS-NAME,ru.rosbank.android
+  - PROCESS-NAME,ru.uralsib.mb
+  - PROCESS-NAME,ru.akbars.mobile
+  - PROCESS-NAME,logo.com.mbanking
+  - PROCESS-NAME,ru.sovcombank.mobile
+  - PROCESS-NAME,ru.mkb.mobile
+
+  # Госуслуги / гос
+  - PROCESS-NAME,ru.rostel
+  - PROCESS-NAME,ru.gosuslugi.app
+  - PROCESS-NAME,ru.gosuslugi.dom
+  - PROCESS-NAME,ru.fsspmobile
+  - PROCESS-NAME,ru.fns.billsreceipt
+  - PROCESS-NAME,ru.gibdd.gibddpay
+  - PROCESS-NAME,ru.mos.app
+  - PROCESS-NAME,mos.dit.parkings
+
+  # Связь / операторы
+  - PROCESS-NAME,ru.mts.mymts
+  - PROCESS-NAME,ru.beeline.services
+  - PROCESS-NAME,ru.megafon.mlk
+  - PROCESS-NAME,ru.tele2.mytele2
+  - PROCESS-NAME,ru.rt.mlk
+  - PROCESS-NAME,ru.mts.music
+  - PROCESS-NAME,ru.mts.mtstv
+
+  # Яндекс / транспорт / доставка
+  - PROCESS-NAME,ru.yandex.taxi
+  - PROCESS-NAME,ru.yandex.eda
+  - PROCESS-NAME,ru.yandex.music
+  - PROCESS-NAME,ru.yandex.market
+  - PROCESS-NAME,ru.yandex.searchplugin
+  - PROCESS-NAME,ru.yandex.mail
+  - PROCESS-NAME,ru.yandex.disk
+  - PROCESS-NAME,ru.yandex.maps
+  - PROCESS-NAME,ru.yandex.yandexmaps
+  - PROCESS-NAME,ru.yandex.yandexnavi
+  - PROCESS-NAME,ru.yandex.translate
+  - PROCESS-NAME,ru.yandex.androidkeyboard
+  - PROCESS-NAME,com.yandex.browser
+  - PROCESS-NAME,com.yandex.bank
+  - PROCESS-NAME,com.yandex.iot
+  - PROCESS-NAME,com.yandex.metro
+  - PROCESS-NAME,ru.yandex.money
+  - PROCESS-NAME,ru.yandex.weatherplugin
+  - PROCESS-NAME,com.delivery_club.Client
+  - PROCESS-NAME,ru.dodopizza.app
+  - PROCESS-NAME,com.burgerking.rbi.ru
+  - PROCESS-NAME,ru.kfc.kfc_android_app
+  - PROCESS-NAME,ru.kfc.kfc_delivery
+  - PROCESS-NAME,ru.foodfox.client
+  - PROCESS-NAME,com.logistic.sdek
+  - PROCESS-NAME,ru.dublgis.dgismobile
+  - PROCESS-NAME,ru.tutu.train
+  - PROCESS-NAME,com.taxsee.taxsee
+  - PROCESS-NAME,ru.mosparking.appnew
+  - PROCESS-NAME,parking.mos.ru
+  - PROCESS-NAME,ru.gosuslugi.auto
+
+  # Маркетплейсы / шопинг
+  - PROCESS-NAME,com.wildberries.ru
+  - PROCESS-NAME,com.ozon.app.android
+  - PROCESS-NAME,ru.ozon.app.android
+  - PROCESS-NAME,ru.ozon.select
+  - PROCESS-NAME,ru.ozon.fintech.finance
+  - PROCESS-NAME,ru.megamarket.marketplace
+  - PROCESS-NAME,ru.instamart
+  - PROCESS-NAME,ru.sbcs.store
+  - PROCESS-NAME,ru.aliexpress.buyer
+  - PROCESS-NAME,ru.mvideo.mobile
+  - PROCESS-NAME,ru.dns.shop
+  - PROCESS-NAME,com.ebay.kleinanzeigen.avito
+  - PROCESS-NAME,com.avito.android
+  - PROCESS-NAME,ru.cdek.sender
+  - PROCESS-NAME,ru.lenta.lenta
+  - PROCESS-NAME,ru.detmir.dmbonus
+  - PROCESS-NAME,ru.tander.magnit
+  - PROCESS-NAME,ru.vkusvill
+  - PROCESS-NAME,ru.pyaterochka.app
+  - PROCESS-NAME,ru.pyaterochka.app.browser
+  - PROCESS-NAME,ru.x5.p5client
+  - PROCESS-NAME,ru.x5club.android
+  - PROCESS-NAME,ru.bestprice.fixprice
+  - PROCESS-NAME,ru.letu
+  - PROCESS-NAME,ru.sportmaster.app
+  - PROCESS-NAME,ru.beru.android
+  - PROCESS-NAME,ru.lamoda.android
+  - PROCESS-NAME,com.octopod.russianpost.client.android
+
+  # Соцсети / медиа / стриминг
+  - PROCESS-NAME,com.vkontakte.android
+  - PROCESS-NAME,com.vk.im
+  - PROCESS-NAME,com.vk.vkvideo
+  - PROCESS-NAME,ru.vk.store
+  - PROCESS-NAME,ru.oneme.app
+  - PROCESS-NAME,ru.ok.android
+  - PROCESS-NAME,ru.mail.mailapp
+  - PROCESS-NAME,ru.kinopoisk
+  - PROCESS-NAME,ru.kinopoisk.tv
+  - PROCESS-NAME,ru.ivi.client
+  - PROCESS-NAME,com.rutube.app
+  - PROCESS-NAME,ru.start.androidmobile
+  - PROCESS-NAME,ru.more.tv
+  - PROCESS-NAME,tv.okko.androidtv
+  - PROCESS-NAME,tv.okko.app
+
+  # Здоровье / госмедицина
+  - PROCESS-NAME,ru.npd.android
+  - PROCESS-NAME,com.gnivts.selfemployed
+  - PROCESS-NAME,ru.gosuslugi.cabinet.health
+  - PROCESS-NAME,ru.gosuslugi.goskey
+  - PROCESS-NAME,ru.gosuslugi.culture
+  - PROCESS-NAME,ru.minzdrav.gosuslugi.dms
+
+  # Работа / сервисы
+  - PROCESS-NAME,ru.hh.android
+  - PROCESS-NAME,ru.kwork.app
+  - PROCESS-NAME,ru.aorr.tkpclient
+  - PROCESS-NAME,ru.nspk.mirpay
