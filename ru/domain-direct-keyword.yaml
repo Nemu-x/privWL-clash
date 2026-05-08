@@ -1,0 +1,99 @@
+payload:
+  # Government / state
+  - DOMAIN-KEYWORD,gosuslugi
+  - DOMAIN-KEYWORD,esia
+  - DOMAIN-KEYWORD,nalog
+  - DOMAIN-KEYWORD,fns
+  - DOMAIN-KEYWORD,gibdd
+  - DOMAIN-KEYWORD,mosreg
+  - DOMAIN-KEYWORD,mosgortrans
+
+  # Yandex
+  - DOMAIN-KEYWORD,yandex
+  - DOMAIN-KEYWORD,kinopoisk
+  - DOMAIN-KEYWORD,yango
+
+  # VK / Mail / OK
+  - DOMAIN-KEYWORD,vk
+  - DOMAIN-KEYWORD,vkplay
+  - DOMAIN-KEYWORD,mail
+  - DOMAIN-KEYWORD,mygames
+  - DOMAIN-KEYWORD,ok
+
+  # Banks / finance
+  - DOMAIN-KEYWORD,sber
+  - DOMAIN-KEYWORD,sberbank
+  - DOMAIN-KEYWORD,sberpay
+  - DOMAIN-KEYWORD,tinkoff
+  - DOMAIN-KEYWORD,tbank
+  - DOMAIN-KEYWORD,alfabank
+  - DOMAIN-KEYWORD,vtb
+  - DOMAIN-KEYWORD,gazprombank
+  - DOMAIN-KEYWORD,raiffeisen
+  - DOMAIN-KEYWORD,psbank
+  - DOMAIN-KEYWORD,rshb
+  - DOMAIN-KEYWORD,rosbank
+  - DOMAIN-KEYWORD,uralsib
+  - DOMAIN-KEYWORD,akbars
+  - DOMAIN-KEYWORD,sovcombank
+  - DOMAIN-KEYWORD,mkb
+  - DOMAIN-KEYWORD,pochtabank
+  - DOMAIN-KEYWORD,mir
+  - DOMAIN-KEYWORD,nspk
+  - DOMAIN-KEYWORD,sbp
+
+  # Marketplaces / shopping
+  - DOMAIN-KEYWORD,ozon
+  - DOMAIN-KEYWORD,wildberries
+  - DOMAIN-KEYWORD,wbbasket
+  - DOMAIN-KEYWORD,wb
+  - DOMAIN-KEYWORD,avito
+  - DOMAIN-KEYWORD,lamoda
+  - DOMAIN-KEYWORD,megamarket
+  - DOMAIN-KEYWORD,sbermarket
+  - DOMAIN-KEYWORD,mvideo
+  - DOMAIN-KEYWORD,eldorado
+  - DOMAIN-KEYWORD,dns-shop
+  - DOMAIN-KEYWORD,citilink
+  - DOMAIN-KEYWORD,vprok
+  - DOMAIN-KEYWORD,samokat
+  - DOMAIN-KEYWORD,vkusvill
+  - DOMAIN-KEYWORD,perekrestok
+  - DOMAIN-KEYWORD,magnit
+  - DOMAIN-KEYWORD,lenta
+  - DOMAIN-KEYWORD,detmir
+  - DOMAIN-KEYWORD,fix-price
+  - DOMAIN-KEYWORD,sportmaster
+
+  # Maps / delivery / taxi
+  - DOMAIN-KEYWORD,2gis
+  - DOMAIN-KEYWORD,delivery-club
+  - DOMAIN-KEYWORD,dostavista
+  - DOMAIN-KEYWORD,cdek
+  - DOMAIN-KEYWORD,pochta
+
+  # Telecom
+  - DOMAIN-KEYWORD,mts
+  - DOMAIN-KEYWORD,beeline
+  - DOMAIN-KEYWORD,megafon
+  - DOMAIN-KEYWORD,tele2
+  - DOMAIN-KEYWORD,rostelecom
+  - DOMAIN-KEYWORD,yota
+
+  # Streaming / media
+  - DOMAIN-KEYWORD,okko
+  - DOMAIN-KEYWORD,ivi
+  - DOMAIN-KEYWORD,rutube
+  - DOMAIN-KEYWORD,premier
+  - DOMAIN-KEYWORD,wink
+  - DOMAIN-KEYWORD,kion
+  - DOMAIN-KEYWORD,amediateka
+
+  # RU infra / hosting
+  - DOMAIN-KEYWORD,selectel
+  - DOMAIN-KEYWORD,timeweb
+  - DOMAIN-KEYWORD,cdnvideo
+
+  # Gaming
+  - DOMAIN-KEYWORD,4game
+  - DOMAIN-KEYWORD,gamexp
