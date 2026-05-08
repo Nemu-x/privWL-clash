@@ -1,0 +1,162 @@
+payload:
+  # RU zones
+  - DOMAIN-SUFFIX,ru
+  - DOMAIN-SUFFIX,su
+  - DOMAIN-SUFFIX,xn--p1ai
+
+  # Government / state
+  - DOMAIN-SUFFIX,gosuslugi.ru
+  - DOMAIN-SUFFIX,mos.ru
+  - DOMAIN-SUFFIX,gov.ru
+  - DOMAIN-SUFFIX,kremlin.ru
+  - DOMAIN-SUFFIX,fns.ru
+  - DOMAIN-SUFFIX,sfr.gov.ru
+  - DOMAIN-SUFFIX,gibdd.ru
+  - DOMAIN-SUFFIX,gosuslugi.dom.ru
+  - DOMAIN-SUFFIX,mosreg.ru
+  - DOMAIN-SUFFIX,mosgortrans.ru
+
+  # Yandex ecosystem
+  - DOMAIN-SUFFIX,yandex.ru
+  - DOMAIN-SUFFIX,yandex.com
+  - DOMAIN-SUFFIX,ya.ru
+  - DOMAIN-SUFFIX,ya.cc
+  - DOMAIN-SUFFIX,yandex.net
+  - DOMAIN-SUFFIX,yastatic.net
+  - DOMAIN-SUFFIX,yandexcloud.net
+  - DOMAIN-SUFFIX,yandex.cloud
+  - DOMAIN-SUFFIX,yandexusercontent.com
+  - DOMAIN-SUFFIX,clck.ru
+  - DOMAIN-SUFFIX,kinopoisk.ru
+  - DOMAIN-SUFFIX,kinopoisk-ott.com
+
+  # VK / Mail / OK
+  - DOMAIN-SUFFIX,vk.com
+  - DOMAIN-SUFFIX,vk.ru
+  - DOMAIN-SUFFIX,vk.me
+  - DOMAIN-SUFFIX,vkvideo.ru
+  - DOMAIN-SUFFIX,vkvideo.com
+  - DOMAIN-SUFFIX,vkmessenger.com
+  - DOMAIN-SUFFIX,vk-cdn.com
+  - DOMAIN-SUFFIX,vk-cdn.net
+  - DOMAIN-SUFFIX,vkuser.net
+  - DOMAIN-SUFFIX,vkuseraudio.net
+  - DOMAIN-SUFFIX,vkuservideo.net
+  - DOMAIN-SUFFIX,userapi.com
+  - DOMAIN-SUFFIX,vkplay.ru
+  - DOMAIN-SUFFIX,vkplay.live
+  - DOMAIN-SUFFIX,ok.ru
+  - DOMAIN-SUFFIX,mail.ru
+  - DOMAIN-SUFFIX,my.com
+  - DOMAIN-SUFFIX,my.games
+  - DOMAIN-SUFFIX,list.ru
+  - DOMAIN-SUFFIX,inbox.ru
+  - DOMAIN-SUFFIX,bk.ru
+
+  # Banks / payments
+  - DOMAIN-SUFFIX,sberbank.ru
+  - DOMAIN-SUFFIX,sber.ru
+  - DOMAIN-SUFFIX,sberdevices.ru
+  - DOMAIN-SUFFIX,sberpay.ru
+  - DOMAIN-SUFFIX,spasibosberbank.ru
+  - DOMAIN-SUFFIX,tbank.ru
+  - DOMAIN-SUFFIX,tinkoff.ru
+  - DOMAIN-SUFFIX,tinkoff.com
+  - DOMAIN-SUFFIX,tinkoffinsurance.ru
+  - DOMAIN-SUFFIX,tinkoffjournal.ru
+  - DOMAIN-SUFFIX,alfabank.ru
+  - DOMAIN-SUFFIX,alfastrah.ru
+  - DOMAIN-SUFFIX,vtb.ru
+  - DOMAIN-SUFFIX,gazprombank.ru
+  - DOMAIN-SUFFIX,raiffeisen.ru
+  - DOMAIN-SUFFIX,psbank.ru
+  - DOMAIN-SUFFIX,rshb.ru
+  - DOMAIN-SUFFIX,rosbank.ru
+  - DOMAIN-SUFFIX,uralsib.ru
+  - DOMAIN-SUFFIX,akbars.ru
+  - DOMAIN-SUFFIX,sovcombank.ru
+  - DOMAIN-SUFFIX,mkb.ru
+  - DOMAIN-SUFFIX,open.ru
+  - DOMAIN-SUFFIX,pochtabank.ru
+  - DOMAIN-SUFFIX,mir.ru
+  - DOMAIN-SUFFIX,nspk.ru
+  - DOMAIN-SUFFIX,mironline.ru
+
+  # Marketplaces / shopping
+  - DOMAIN-SUFFIX,ozon.ru
+  - DOMAIN-SUFFIX,ozon.com
+  - DOMAIN-SUFFIX,ozonusercontent.com
+  - DOMAIN-SUFFIX,wildberries.ru
+  - DOMAIN-SUFFIX,wildberries.com
+  - DOMAIN-SUFFIX,wildberries.net
+  - DOMAIN-SUFFIX,wbbasket.ru
+  - DOMAIN-SUFFIX,wbbasket.com
+  - DOMAIN-SUFFIX,wb.ru
+  - DOMAIN-SUFFIX,wbstatic.net
+  - DOMAIN-SUFFIX,avito.ru
+  - DOMAIN-SUFFIX,avito.st
+  - DOMAIN-SUFFIX,lamoda.ru
+  - DOMAIN-SUFFIX,lamoda.com
+  - DOMAIN-SUFFIX,aliexpress.ru
+  - DOMAIN-SUFFIX,megamarket.ru
+  - DOMAIN-SUFFIX,sbermarket.ru
+  - DOMAIN-SUFFIX,mvideo.ru
+  - DOMAIN-SUFFIX,eldorado.ru
+  - DOMAIN-SUFFIX,dns-shop.ru
+  - DOMAIN-SUFFIX,citilink.ru
+  - DOMAIN-SUFFIX,vprok.ru
+  - DOMAIN-SUFFIX,samokat.ru
+  - DOMAIN-SUFFIX,vkusvill.ru
+  - DOMAIN-SUFFIX,perekrestok.ru
+  - DOMAIN-SUFFIX,magnit.ru
+  - DOMAIN-SUFFIX,lenta.com
+  - DOMAIN-SUFFIX,detmir.ru
+  - DOMAIN-SUFFIX,fix-price.com
+  - DOMAIN-SUFFIX,sportmaster.ru
+
+  # Maps / taxi / delivery
+  - DOMAIN-SUFFIX,2gis.ru
+  - DOMAIN-SUFFIX,2gis.com
+  - DOMAIN-SUFFIX,2gis.kz
+  - DOMAIN-SUFFIX,2gis.ae
+  - DOMAIN-SUFFIX,delivery-club.ru
+  - DOMAIN-SUFFIX,dostavista.ru
+  - DOMAIN-SUFFIX,cdek.ru
+  - DOMAIN-SUFFIX,pochta.ru
+  - DOMAIN-SUFFIX,yango.com
+
+  # Operators / telecom
+  - DOMAIN-SUFFIX,mts.ru
+  - DOMAIN-SUFFIX,beeline.ru
+  - DOMAIN-SUFFIX,megafon.ru
+  - DOMAIN-SUFFIX,tele2.ru
+  - DOMAIN-SUFFIX,t2.ru
+  - DOMAIN-SUFFIX,rt.ru
+  - DOMAIN-SUFFIX,rostelecom.ru
+  - DOMAIN-SUFFIX,dom.ru
+  - DOMAIN-SUFFIX,yota.ru
+
+  # Streaming / media
+  - DOMAIN-SUFFIX,okko.tv
+  - DOMAIN-SUFFIX,ivi.ru
+  - DOMAIN-SUFFIX,start.ru
+  - DOMAIN-SUFFIX,more.tv
+  - DOMAIN-SUFFIX,rutube.ru
+  - DOMAIN-SUFFIX,premier.one
+  - DOMAIN-SUFFIX,smotrim.ru
+  - DOMAIN-SUFFIX,ott-cdn.ru
+  - DOMAIN-SUFFIX,wink.ru
+  - DOMAIN-SUFFIX,kion.ru
+  - DOMAIN-SUFFIX,amediateka.ru
+
+  # RU cloud / infra / hosting
+  - DOMAIN-SUFFIX,vk.cloud
+  - DOMAIN-SUFFIX,selectel.ru
+  - DOMAIN-SUFFIX,timeweb.ru
+  - DOMAIN-SUFFIX,nic.ru
+  - DOMAIN-SUFFIX,cdnvideo.ru
+
+  # Gaming
+  - DOMAIN-SUFFIX,4game.ru
+  - DOMAIN-SUFFIX,inn.ru
+  - DOMAIN-SUFFIX,gamexp.ru
