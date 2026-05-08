@@ -1,0 +1,13 @@
+payload:
+  - PROCESS-NAME-WILDCARD,ru.*
+  - PROCESS-NAME-WILDCARD,*.ru.*
+  - PROCESS-NAME-WILDCARD,com.yandex.*
+  - PROCESS-NAME-WILDCARD,ru.yandex.*
+  - PROCESS-NAME-WILDCARD,com.vk.*
+  - PROCESS-NAME-WILDCARD,ru.vk.*
+  - PROCESS-NAME-WILDCARD,ru.mail.*
+  - PROCESS-NAME-WILDCARD,com.sberbank.*
+  - PROCESS-NAME-WILDCARD,ru.sberbank.*
+  - PROCESS-NAME-WILDCARD,ru.tinkoff.*
+  - PROCESS-NAME-WILDCARD,ru.ozon.*
+  - PROCESS-NAME-WILDCARD,com.ozon.*
