@@ -25,16 +25,33 @@ payload:
   - PROCESS-NAME,mediaget.exe
   - PROCESS-NAME,Zona.exe
   - PROCESS-NAME,zona
+  - PROCESS-NAME,utorrent.exe
+  - PROCESS-NAME,uTorrent Web.exe
+  - PROCESS-NAME,transmission-daemon
+  - PROCESS-NAME,transmission-cli
+  - PROCESS-NAME,deluged
+  - PROCESS-NAME,deluge-gtk
+  - PROCESS-NAME,rtorrent
+  - PROCESS-NAME,ktorrent
+  - PROCESS-NAME,vuze
+  - PROCESS-NAME,azureus
+  - PROCESS-NAME,tribler
 
   # Russian browsers / services
-  - PROCESS-NAME,browser.exe        # Yandex Browser часто так называется
   - PROCESS-NAME,Yandex.exe
   - PROCESS-NAME,yandex_browser.exe
   - PROCESS-NAME,Atom.exe
   - PROCESS-NAME,MailRuUpdater.exe
   - PROCESS-NAME,Disk-O.exe
   - PROCESS-NAME,YandexDisk.exe
-
+  - PROCESS-NAME,YandexMusic.exe
+  - PROCESS-NAME,YandexDisk2.exe
+  - PROCESS-NAME,MailRuCloud.exe
+  - PROCESS-NAME,VKTeams.exe
+  - PROCESS-NAME,Kontur.Plugin.exe
+  - PROCESS-NAME,CryptoPro CSP.exe
+  - PROCESS-NAME,csptest.exe
+  
   # Messengers / RU apps
   - PROCESS-NAME,vk.exe
   - PROCESS-NAME,VKMessenger.exe
