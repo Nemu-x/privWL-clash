@@ -18,7 +18,6 @@ payload:
   - DOMAIN-KEYWORD,vkplay
   - DOMAIN-KEYWORD,mail
   - DOMAIN-KEYWORD,mygames
-  - DOMAIN-KEYWORD,ok
 
   # Banks / finance
   - DOMAIN-KEYWORD,sber
