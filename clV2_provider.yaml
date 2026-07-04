@@ -43,6 +43,7 @@ payload:
   - DOMAIN-SUFFIX,bbc.co.uk
   - DOMAIN-SUFFIX,bbc.com
   - DOMAIN-SUFFIX,bbci.co.uk
+  - DOMAIN-SUFFIX,bedolagam.ru
   - DOMAIN-SUFFIX,bellingcat.com
   - DOMAIN-SUFFIX,bestchange.ru
   - DOMAIN-SUFFIX,bgpmon.net
@@ -328,6 +329,7 @@ payload:
   - DOMAIN-SUFFIX,pixabay.com
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,plab.site
+  - DOMAIN-SUFFIX,platega.io
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,polit.ru
   - DOMAIN-SUFFIX,postfix.org
