@@ -14,6 +14,7 @@ payload:
   - PROCESS-NAME,transmission-gtk
   - PROCESS-NAME,transmission-qt
   - PROCESS-NAME,deluge
+  - PROCESS-NAME,Deluge
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,utweb.exe
   - PROCESS-NAME,BitLord.exe
