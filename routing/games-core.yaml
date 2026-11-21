@@ -1,4 +1,6 @@
 payload:
+  - PROCESS-NAME,Wow.exe
+  - PROCESS-NAME,WowVoiceProxy.exe
   - PROCESS-NAME,bf6.exe
   - PROCESS-NAME,BF6.exe
   - PROCESS-NAME,bf2042.exe
